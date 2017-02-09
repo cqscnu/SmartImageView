@@ -110,5 +110,7 @@ public class SmartImageView extends ImageView {
 		threadPool.shutdownNow();
 		threadPool = Executors.newFixedThreadPool(LOADING_THREADS);
 	}
+	
+	//hello
 
 }
